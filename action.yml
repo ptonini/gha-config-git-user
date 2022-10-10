@@ -1,0 +1,15 @@
+name: Configure git for a user
+description: ''
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+inputs:
+  token:
+    description: ''
+    required: false
+    default: ${{ github.token }}
+  username:
+    description: ''
+    required: false
+    default: ${{ github.actor }}
+
