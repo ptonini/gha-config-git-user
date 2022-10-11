@@ -1,4 +1,4 @@
-name: Configure git for a user
+name: config-git-user
 description: ''
 runs:
   using: 'node16'
